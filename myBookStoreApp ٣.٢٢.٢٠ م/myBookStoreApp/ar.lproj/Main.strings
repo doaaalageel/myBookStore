@@ -1,0 +1,84 @@
+
+/* Class = "UILabel"; text = "Password"; ObjectID = "2GU-4A-Pqg"; */
+"2GU-4A-Pqg.text" = "Password";
+
+/* Class = "UILabel"; text = "or"; ObjectID = "3FI-VF-fRf"; */
+"3FI-VF-fRf.text" = "or";
+
+/* Class = "UILabel"; text = "Adress"; ObjectID = "4EF-io-iFt"; */
+"4EF-io-iFt.text" = "Adress";
+
+/* Class = "UILabel"; text = "Email"; ObjectID = "9N3-cn-DQW"; */
+"9N3-cn-DQW.text" = "Email";
+
+/* Class = "UILabel"; text = "Email"; ObjectID = "EkE-5o-vBX"; */
+"EkE-5o-vBX.text" = "Email";
+
+/* Class = "UILabel"; text = "or"; ObjectID = "Mji-cK-SYe"; */
+"Mji-cK-SYe.text" = "or";
+
+/* Class = "UIButton"; configuration.title = "Login"; ObjectID = "NCV-eB-Pe3"; */
+"NCV-eB-Pe3.configuration.title" = "Login";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "NCV-eB-Pe3"; */
+"NCV-eB-Pe3.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Password"; ObjectID = "NKk-Sc-bx4"; */
+"NKk-Sc-bx4.text" = "Password";
+
+/* Class = "UIButton"; configuration.title = "Register"; ObjectID = "Onw-6j-0gv"; */
+"Onw-6j-0gv.configuration.title" = "Register";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Onw-6j-0gv"; */
+"Onw-6j-0gv.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Login"; ObjectID = "Pwn-ej-qEi"; */
+"Pwn-ej-qEi.configuration.title" = "Login";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Pwn-ej-qEi"; */
+"Pwn-ej-qEi.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "or"; ObjectID = "bkk-Lm-Ast"; */
+"bkk-Lm-Ast.text" = "or";
+
+/* Class = "UILabel"; text = "or"; ObjectID = "emm-GI-TnR"; */
+"emm-GI-TnR.text" = "or";
+
+/* Class = "UIButton"; configuration.title = "Register"; ObjectID = "hDV-jH-Vln"; */
+"hDV-jH-Vln.configuration.title" = "Register";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "hDV-jH-Vln"; */
+"hDV-jH-Vln.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Login"; ObjectID = "idT-3d-goq"; */
+"idT-3d-goq.configuration.title" = "Login";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "idT-3d-goq"; */
+"idT-3d-goq.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Login"; ObjectID = "k3A-cl-gY8"; */
+"k3A-cl-gY8.configuration.title" = "Login";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "k3A-cl-gY8"; */
+"k3A-cl-gY8.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "ml1-Dn-sCe"; */
+"ml1-Dn-sCe.text" = "Name";
+
+/* Class = "UIButton"; configuration.title = "Register"; ObjectID = "nE7-F6-LXx"; */
+"nE7-F6-LXx.configuration.title" = "Register";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "nE7-F6-LXx"; */
+"nE7-F6-LXx.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Phone-Number"; ObjectID = "qy5-cS-F2x"; */
+"qy5-cS-F2x.text" = "Phone-Number";
+
+/* Class = "UILabel"; text = "Re-password"; ObjectID = "uU8-NZ-cTC"; */
+"uU8-NZ-cTC.text" = "Re-password";
+
+/* Class = "UIButton"; configuration.title = "Register"; ObjectID = "vpA-eS-5kc"; */
+"vpA-eS-5kc.configuration.title" = "Register";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "vpA-eS-5kc"; */
+"vpA-eS-5kc.normalTitle" = "Button";
