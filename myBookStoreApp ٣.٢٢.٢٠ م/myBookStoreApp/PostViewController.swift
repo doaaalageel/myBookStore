@@ -37,11 +37,11 @@ class PostViewController: UIViewController {
             postTitleTextField.text = selectedPost.title
             postDescriptionTextField.text = selectedPost.description
             postImageView.image = selectedImage
-            actionButton.setTitle("Update Post", for: .normal)
+            actionButton.setTitle("Update Book", for: .normal)
             let deleteBarButton = UIBarButtonItem(image: UIImage(systemName: "trash.fill"), style: .plain, target: self, action: #selector(handleDelete))
             self.navigationItem.rightBarButtonItem = deleteBarButton
         }else {
-            actionButton.setTitle("Add Post", for: .normal)
+            actionButton.setTitle("Add Book", for: .normal)
             self.navigationItem.rightBarButtonItem = nil
             
         }
