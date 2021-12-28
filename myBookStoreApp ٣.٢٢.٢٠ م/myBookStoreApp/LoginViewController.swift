@@ -14,7 +14,7 @@ class LoginViewController: UIViewController {
     
     @IBOutlet weak var passwordTextField: UITextField!
     
-    
+    var activityIndicator = UIActivityIndicatorView()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,6 +33,10 @@ class LoginViewController: UIViewController {
 //                        Activity.removeIndicator(parentView: self.view, childView: self.activityIndicator)
                         self.present(vc, animated: true, completion: nil)
                     }
+                }
+                if let error = error {
+                    Alert.showAlert(strTitle: "Error", strMessage: error.localizedDescription, viewController: self)
+                    Activity.removeIndicator(parentView: self.view, childView: self.activityIndicator)
                 }
             }
         }

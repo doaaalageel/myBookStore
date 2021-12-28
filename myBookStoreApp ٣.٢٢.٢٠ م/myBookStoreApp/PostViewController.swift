@@ -23,7 +23,10 @@ class PostViewController: UIViewController {
     
     @IBOutlet weak var postTitleTextField: UITextField!
     
-    @IBOutlet weak var postDescriptionTextField: UITextField!
+    @IBOutlet weak var postDescriptionTextField: UITextView!
+    
+    @IBOutlet weak var contactUsTextView: UITextView!
+    
     
     
     @IBOutlet weak var actionButton: UIButton!
@@ -36,6 +39,7 @@ class PostViewController: UIViewController {
         let selectedImage = selectedPostImage{
             postTitleTextField.text = selectedPost.title
             postDescriptionTextField.text = selectedPost.description
+            contactUsTextView.text = selectedPost.contact
             postImageView.image = selectedImage
             actionButton.setTitle("Update Book", for: .normal)
             let deleteBarButton = UIBarButtonItem(image: UIImage(systemName: "trash.fill"), style: .plain, target: self, action: #selector(handleDelete))
@@ -79,6 +83,7 @@ class PostViewController: UIViewController {
            let imageData = image.jpegData(compressionQuality: 0.75),
            let title = postTitleTextField.text,
            let description = postDescriptionTextField.text,
+           let contact = contactUsTextView.text,
            let currentUser = Auth.auth().currentUser {
             Activity.showIndicator(parentView: self.view, childView: activityIndicator)
 //            ref.addDocument(data:)
@@ -105,6 +110,7 @@ class PostViewController: UIViewController {
                                 "userId":selectedPost.user.id,
                                 "title":title,
                                 "description":description,
+                                "contact":contact,
                                 "imageUrl":url.absoluteString,
                                 "createdAt":selectedPost.createdAt ?? FieldValue.serverTimestamp(),
                                 "updatedAt": FieldValue.serverTimestamp()
@@ -114,6 +120,7 @@ class PostViewController: UIViewController {
                                 "userId":currentUser.uid,
                                 "title":title,
                                 "description":description,
+                                "contact":contact,
                                 "imageUrl":url.absoluteString,
                                 "createdAt":FieldValue.serverTimestamp(),
                                 "updatedAt": FieldValue.serverTimestamp()

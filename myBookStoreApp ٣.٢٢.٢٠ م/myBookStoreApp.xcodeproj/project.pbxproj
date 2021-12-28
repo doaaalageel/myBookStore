@@ -23,6 +23,7 @@
 		A74A30242778CE9700578BDB /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74A30222778CE9700578BDB /* PostCell.swift */; };
 		A74A30252778CE9700578BDB /* PostCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A74A30232778CE9700578BDB /* PostCell.xib */; };
 		A74A30272779D21800578BDB /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74A30262779D21800578BDB /* LandingViewController.swift */; };
+		A74A3029277AF98C00578BDB /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74A3028277AF98C00578BDB /* Alert.swift */; };
 		A76056DB2774B14C00B0AD3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76056DA2774B14C00B0AD3E /* AppDelegate.swift */; };
 		A76056DD2774B14C00B0AD3E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76056DC2774B14C00B0AD3E /* SceneDelegate.swift */; };
 		A76056DF2774B14C00B0AD3E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76056DE2774B14C00B0AD3E /* ViewController.swift */; };
@@ -49,6 +50,7 @@
 		A74A30222778CE9700578BDB /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		A74A30232778CE9700578BDB /* PostCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostCell.xib; sourceTree = "<group>"; };
 		A74A30262779D21800578BDB /* LandingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
+		A74A3028277AF98C00578BDB /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		A76056D72774B14C00B0AD3E /* myBookStoreApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myBookStoreApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A76056DA2774B14C00B0AD3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A76056DC2774B14C00B0AD3E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				A72EC59C277865E500F4AE3E /* Activity.swift */,
 				A74A301E2778CD2000578BDB /* PostViewController.swift */,
 				A74A30202778CDAD00578BDB /* DetailsViewController.swift */,
+				A74A3028277AF98C00578BDB /* Alert.swift */,
 				A72EC5AB277887FF00F4AE3E /* HomeViewController.swift */,
 				A74A30262779D21800578BDB /* LandingViewController.swift */,
 				A72EC592277861E800F4AE3E /* LoginViewController.swift */,
@@ -201,6 +204,7 @@
 				A72EC593277861E800F4AE3E /* LoginViewController.swift in Sources */,
 				A76056DF2774B14C00B0AD3E /* ViewController.swift in Sources */,
 				A74A30242778CE9700578BDB /* PostCell.swift in Sources */,
+				A74A3029277AF98C00578BDB /* Alert.swift in Sources */,
 				A72EC591277861A800F4AE3E /* RegisterViewController.swift in Sources */,
 				A76056DB2774B14C00B0AD3E /* AppDelegate.swift in Sources */,
 				A72EC59B277865B600F4AE3E /* ImageView.swift in Sources */,

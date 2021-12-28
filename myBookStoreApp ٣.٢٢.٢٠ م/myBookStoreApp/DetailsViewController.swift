@@ -19,6 +19,8 @@ class DetailsViewController: UIViewController {
     
     @IBOutlet weak var postDescriptionLabel: UILabel!
     
+    @IBOutlet weak var contactUsLabel: UILabel!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,6 +30,7 @@ class DetailsViewController: UIViewController {
             postTitleLabel.text = selectedPost.title
             postDescriptionLabel.text = selectedPost.description
             postImageView.image = selectedImage
+            contactUsLabel.text = selectedPost.contact
         }
         
     }
