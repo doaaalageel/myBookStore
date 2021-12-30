@@ -37,8 +37,23 @@ class RegisterViewController: UIViewController {
     
     @IBOutlet weak var phoneNumberTextField: UITextField!
     
+   
+    @IBOutlet weak var registerLabel: UILabel!
     
-
+    
+    @IBOutlet weak var nameLabel: UILabel!
+    
+    
+    @IBOutlet weak var emailRegisterLabel: UILabel!
+    
+    
+    @IBOutlet weak var passwordRegisterLabel: UILabel!
+    
+    
+    @IBOutlet weak var rePasswordLabel: UILabel!
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
