@@ -7,23 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D8CD870277BD81200385785 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8CD865277BD81000385785 /* Post.swift */; };
+		4D8CD871277BD81200385785 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8CD866277BD81000385785 /* PostCell.swift */; };
+		4D8CD872277BD81200385785 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8CD867277BD81100385785 /* ImageView.swift */; };
+		4D8CD873277BD81200385785 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8CD868277BD81100385785 /* Activity.swift */; };
+		4D8CD874277BD81200385785 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8CD869277BD81100385785 /* PostViewController.swift */; };
+		4D8CD875277BD81200385785 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8CD86A277BD81100385785 /* DetailsViewController.swift */; };
+		4D8CD876277BD81200385785 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8CD86B277BD81100385785 /* Alert.swift */; };
+		4D8CD877277BD81200385785 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8CD86C277BD81100385785 /* User.swift */; };
+		4D8CD878277BD81200385785 /* PostCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D8CD86D277BD81100385785 /* PostCell.xib */; };
+		4D8CD879277BD81200385785 /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8CD86E277BD81100385785 /* LandingViewController.swift */; };
+		4D8CD87A277BD81200385785 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8CD86F277BD81200385785 /* HomeViewController.swift */; };
 		A72EC591277861A800F4AE3E /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72EC590277861A800F4AE3E /* RegisterViewController.swift */; };
 		A72EC593277861E800F4AE3E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72EC592277861E800F4AE3E /* LoginViewController.swift */; };
-		A72EC59B277865B600F4AE3E /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72EC59A277865B600F4AE3E /* ImageView.swift */; };
-		A72EC59D277865E500F4AE3E /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72EC59C277865E500F4AE3E /* Activity.swift */; };
-		A72EC59F2778697000F4AE3E /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72EC59E2778697000F4AE3E /* Post.swift */; };
-		A72EC5A12778699E00F4AE3E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72EC5A02778699E00F4AE3E /* User.swift */; };
 		A72EC5A327787A9F00F4AE3E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A72EC5A227787A9F00F4AE3E /* GoogleService-Info.plist */; };
 		A72EC5A627787D1F00F4AE3E /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = A72EC5A527787D1F00F4AE3E /* FirebaseAuth */; };
 		A72EC5A827787D1F00F4AE3E /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = A72EC5A727787D1F00F4AE3E /* FirebaseFirestore */; };
 		A72EC5AA27787D1F00F4AE3E /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = A72EC5A927787D1F00F4AE3E /* FirebaseStorage */; };
-		A72EC5AC277887FF00F4AE3E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72EC5AB277887FF00F4AE3E /* HomeViewController.swift */; };
-		A74A301F2778CD2000578BDB /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74A301E2778CD2000578BDB /* PostViewController.swift */; };
-		A74A30212778CDAD00578BDB /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74A30202778CDAD00578BDB /* DetailsViewController.swift */; };
-		A74A30242778CE9700578BDB /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74A30222778CE9700578BDB /* PostCell.swift */; };
-		A74A30252778CE9700578BDB /* PostCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A74A30232778CE9700578BDB /* PostCell.xib */; };
-		A74A30272779D21800578BDB /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74A30262779D21800578BDB /* LandingViewController.swift */; };
-		A74A3029277AF98C00578BDB /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74A3028277AF98C00578BDB /* Alert.swift */; };
 		A76056DB2774B14C00B0AD3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76056DA2774B14C00B0AD3E /* AppDelegate.swift */; };
 		A76056DD2774B14C00B0AD3E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76056DC2774B14C00B0AD3E /* SceneDelegate.swift */; };
 		A76056DF2774B14C00B0AD3E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76056DE2774B14C00B0AD3E /* ViewController.swift */; };
@@ -33,24 +33,24 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D8CD865277BD81000385785 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Post.swift; path = myBookStoreApp/Main/Post.swift; sourceTree = SOURCE_ROOT; };
+		4D8CD866277BD81000385785 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PostCell.swift; path = myBookStoreApp/Main/PostCell.swift; sourceTree = SOURCE_ROOT; };
+		4D8CD867277BD81100385785 /* ImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageView.swift; path = myBookStoreApp/Main/ImageView.swift; sourceTree = SOURCE_ROOT; };
+		4D8CD868277BD81100385785 /* Activity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Activity.swift; path = myBookStoreApp/Main/Activity.swift; sourceTree = SOURCE_ROOT; };
+		4D8CD869277BD81100385785 /* PostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PostViewController.swift; path = myBookStoreApp/Main/PostViewController.swift; sourceTree = SOURCE_ROOT; };
+		4D8CD86A277BD81100385785 /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailsViewController.swift; path = myBookStoreApp/Main/DetailsViewController.swift; sourceTree = SOURCE_ROOT; };
+		4D8CD86B277BD81100385785 /* Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Alert.swift; path = myBookStoreApp/Main/Alert.swift; sourceTree = SOURCE_ROOT; };
+		4D8CD86C277BD81100385785 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = myBookStoreApp/Main/User.swift; sourceTree = SOURCE_ROOT; };
+		4D8CD86D277BD81100385785 /* PostCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PostCell.xib; path = myBookStoreApp/Main/PostCell.xib; sourceTree = SOURCE_ROOT; };
+		4D8CD86E277BD81100385785 /* LandingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LandingViewController.swift; path = myBookStoreApp/Main/LandingViewController.swift; sourceTree = SOURCE_ROOT; };
+		4D8CD86F277BD81200385785 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = myBookStoreApp/Main/HomeViewController.swift; sourceTree = SOURCE_ROOT; };
 		A72EC590277861A800F4AE3E /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		A72EC592277861E800F4AE3E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		A72EC5942778649B00F4AE3E /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
 		A72EC5952778649B00F4AE3E /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		A72EC597277864DF00F4AE3E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		A72EC599277864FC00F4AE3E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
-		A72EC59A277865B600F4AE3E /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
-		A72EC59C277865E500F4AE3E /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
-		A72EC59E2778697000F4AE3E /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
-		A72EC5A02778699E00F4AE3E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		A72EC5A227787A9F00F4AE3E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		A72EC5AB277887FF00F4AE3E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		A74A301E2778CD2000578BDB /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
-		A74A30202778CDAD00578BDB /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
-		A74A30222778CE9700578BDB /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
-		A74A30232778CE9700578BDB /* PostCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostCell.xib; sourceTree = "<group>"; };
-		A74A30262779D21800578BDB /* LandingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
-		A74A3028277AF98C00578BDB /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		A76056D72774B14C00B0AD3E /* myBookStoreApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myBookStoreApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A76056DA2774B14C00B0AD3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A76056DC2774B14C00B0AD3E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -75,6 +75,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4DE0902A277BD0A300DA7C4F /*  Model */ = {
+			isa = PBXGroup;
+			children = (
+				A72EC5A227787A9F00F4AE3E /* GoogleService-Info.plist */,
+				A76056DA2774B14C00B0AD3E /* AppDelegate.swift */,
+				A76056DC2774B14C00B0AD3E /* SceneDelegate.swift */,
+				A76056DE2774B14C00B0AD3E /* ViewController.swift */,
+				A76056E02774B14C00B0AD3E /* Main.storyboard */,
+				A76056E32774B15100B0AD3E /* Assets.xcassets */,
+				A76056E52774B15100B0AD3E /* LaunchScreen.storyboard */,
+			);
+			path = " Model";
+			sourceTree = "<group>";
+		};
+		4DE0902B277BD0AB00DA7C4F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4D8CD868277BD81100385785 /* Activity.swift */,
+				4D8CD86B277BD81100385785 /* Alert.swift */,
+				4D8CD86A277BD81100385785 /* DetailsViewController.swift */,
+				4D8CD86F277BD81200385785 /* HomeViewController.swift */,
+				4D8CD867277BD81100385785 /* ImageView.swift */,
+				4D8CD86E277BD81100385785 /* LandingViewController.swift */,
+				4D8CD865277BD81000385785 /* Post.swift */,
+				4D8CD866277BD81000385785 /* PostCell.swift */,
+				4D8CD86D277BD81100385785 /* PostCell.xib */,
+				4D8CD869277BD81100385785 /* PostViewController.swift */,
+				4D8CD86C277BD81100385785 /* User.swift */,
+			);
+			name = Controller;
+			path = "New Group1";
+			sourceTree = "<group>";
+		};
+		4DE0902C277BD0B500DA7C4F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A72EC592277861E800F4AE3E /* LoginViewController.swift */,
+				A72EC590277861A800F4AE3E /* RegisterViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		A76056CE2774B14C00B0AD3E = {
 			isa = PBXGroup;
 			children = (
@@ -94,27 +136,10 @@
 		A76056D92774B14C00B0AD3E /* myBookStoreApp */ = {
 			isa = PBXGroup;
 			children = (
-				A76056DA2774B14C00B0AD3E /* AppDelegate.swift */,
-				A76056DC2774B14C00B0AD3E /* SceneDelegate.swift */,
-				A76056DE2774B14C00B0AD3E /* ViewController.swift */,
-				A76056E02774B14C00B0AD3E /* Main.storyboard */,
-				A74A30222778CE9700578BDB /* PostCell.swift */,
-				A74A30232778CE9700578BDB /* PostCell.xib */,
-				A72EC59E2778697000F4AE3E /* Post.swift */,
-				A72EC5A02778699E00F4AE3E /* User.swift */,
-				A72EC59A277865B600F4AE3E /* ImageView.swift */,
-				A72EC59C277865E500F4AE3E /* Activity.swift */,
-				A74A301E2778CD2000578BDB /* PostViewController.swift */,
-				A74A30202778CDAD00578BDB /* DetailsViewController.swift */,
-				A74A3028277AF98C00578BDB /* Alert.swift */,
-				A72EC5AB277887FF00F4AE3E /* HomeViewController.swift */,
-				A74A30262779D21800578BDB /* LandingViewController.swift */,
-				A72EC592277861E800F4AE3E /* LoginViewController.swift */,
-				A72EC590277861A800F4AE3E /* RegisterViewController.swift */,
-				A76056E32774B15100B0AD3E /* Assets.xcassets */,
-				A76056E52774B15100B0AD3E /* LaunchScreen.storyboard */,
 				A76056E82774B15100B0AD3E /* Info.plist */,
-				A72EC5A227787A9F00F4AE3E /* GoogleService-Info.plist */,
+				4DE0902A277BD0A300DA7C4F /*  Model */,
+				4DE0902C277BD0B500DA7C4F /* View */,
+				4DE0902B277BD0AB00DA7C4F /* Controller */,
 			);
 			path = myBookStoreApp;
 			sourceTree = "<group>";
@@ -188,7 +213,7 @@
 			files = (
 				A76056E72774B15100B0AD3E /* LaunchScreen.storyboard in Resources */,
 				A76056E42774B15100B0AD3E /* Assets.xcassets in Resources */,
-				A74A30252778CE9700578BDB /* PostCell.xib in Resources */,
+				4D8CD878277BD81200385785 /* PostCell.xib in Resources */,
 				A76056E22774B14C00B0AD3E /* Main.storyboard in Resources */,
 				A72EC5A327787A9F00F4AE3E /* GoogleService-Info.plist in Resources */,
 			);
@@ -201,21 +226,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D8CD877277BD81200385785 /* User.swift in Sources */,
+				4D8CD872277BD81200385785 /* ImageView.swift in Sources */,
+				4D8CD871277BD81200385785 /* PostCell.swift in Sources */,
 				A72EC593277861E800F4AE3E /* LoginViewController.swift in Sources */,
+				4D8CD875277BD81200385785 /* DetailsViewController.swift in Sources */,
+				4D8CD87A277BD81200385785 /* HomeViewController.swift in Sources */,
 				A76056DF2774B14C00B0AD3E /* ViewController.swift in Sources */,
-				A74A30242778CE9700578BDB /* PostCell.swift in Sources */,
-				A74A3029277AF98C00578BDB /* Alert.swift in Sources */,
+				4D8CD874277BD81200385785 /* PostViewController.swift in Sources */,
+				4D8CD876277BD81200385785 /* Alert.swift in Sources */,
+				4D8CD879277BD81200385785 /* LandingViewController.swift in Sources */,
 				A72EC591277861A800F4AE3E /* RegisterViewController.swift in Sources */,
+				4D8CD870277BD81200385785 /* Post.swift in Sources */,
+				4D8CD873277BD81200385785 /* Activity.swift in Sources */,
 				A76056DB2774B14C00B0AD3E /* AppDelegate.swift in Sources */,
-				A72EC59B277865B600F4AE3E /* ImageView.swift in Sources */,
-				A72EC59F2778697000F4AE3E /* Post.swift in Sources */,
-				A72EC5AC277887FF00F4AE3E /* HomeViewController.swift in Sources */,
-				A74A30272779D21800578BDB /* LandingViewController.swift in Sources */,
-				A72EC59D277865E500F4AE3E /* Activity.swift in Sources */,
-				A72EC5A12778699E00F4AE3E /* User.swift in Sources */,
 				A76056DD2774B14C00B0AD3E /* SceneDelegate.swift in Sources */,
-				A74A301F2778CD2000578BDB /* PostViewController.swift in Sources */,
-				A74A30212778CDAD00578BDB /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,6 +397,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = myBookStoreApp/Info.plist;
+				"INFOPLIST_FILE[sdk=*]" = myBookStoreApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

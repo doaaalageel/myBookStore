@@ -95,7 +95,7 @@ class RegisterViewController: UIViewController {
                                         Alert.showAlert(strTitle: "Error", strMessage: error.localizedDescription, viewController: self)
                                         Activity.removeIndicator(parentView: self.view, childView: self.activityIndicator)
                                     }else {
-                    if let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "HomeNavigationController") as? UINavigationController {
+                    if let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "tabbar") as? UIViewController {
                         vc.modalPresentationStyle = .fullScreen
                         Activity.removeIndicator(parentView: self.view, childView: self.activityIndicator)
                                             self.present(vc, animated: true, completion: nil)
